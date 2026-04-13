@@ -50,7 +50,7 @@
                         Oops! There was a problem submitting your form.
                     </div>
 
-                    <form id="contactForm" novalidate>
+                    <form id="contactForm" action="https://formspree.io/f/meepygqn" method="POST" novalidate>
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-group">

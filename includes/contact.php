@@ -134,19 +134,14 @@ document.addEventListener("DOMContentLoaded", function() {
         result.style.display = 'none';
 
         const formData = new FormData(form);
-        const object = Object.fromEntries(formData);
-        
-        // Stringify the data to match JSON submission requirements of Web3Forms
-        const json = JSON.stringify(object);
 
         // Replace default submission with fetch
         fetch('https://api.web3forms.com/submit', {
             method: 'POST',
             headers: {
-                'Content-Type': 'application/json',
                 'Accept': 'application/json'
             },
-            body: json
+            body: formData
         })
         .then(async (response) => {
             let json = await response.json();

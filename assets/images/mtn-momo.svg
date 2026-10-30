@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 50" width="160" height="50">
+  <rect width="160" height="50" rx="8" fill="#FFCC00"/>
+  <circle cx="28" cy="25" r="16" fill="#000000"/>
+  <text x="28" y="29" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="900" fill="#FFCC00" text-anchor="middle">MTN</text>
+  <text x="54" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800" fill="#000000">MoMo</text>
+  <text x="54" y="38" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" fill="#333333">Disbursement</text>
+</svg>

@@ -1,0 +1,9 @@
+.git
+.gitignore
+.github
+*.docx
+*.log
+docker-compose*.override.yml
+scratch/
+.DS_Store
+Thumbs.db

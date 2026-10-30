@@ -1,0 +1,16 @@
+version: '3.8'
+
+# Development compose overlay: Mounts local working directory into container
+services:
+  spider-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: spider-microfinance:dev
+    container_name: spider_microfinance_dev
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/var/www/html
+    environment:
+      - APP_ENV=development
